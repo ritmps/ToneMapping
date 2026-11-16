@@ -1,0 +1,6 @@
+build/
+*.paclet
+.DS_Store
+*.swp
+*~
+.agent-scratch/

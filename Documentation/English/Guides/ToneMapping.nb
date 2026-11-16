@@ -1,0 +1,171 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 15.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      5965,        162]
+NotebookOptionsPosition[      3874,        122]
+NotebookOutlinePosition[      4562,        143]
+CellTagsIndexPosition[      4519,        140]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Categorization", "CategorizationSection",ExpressionUUID->"d5aac77c-73f7-4b04-9f0a-acdf827cba3b"],
+
+Cell["Guide", "Categorization",
+ CellLabel->
+  "Entity Type",ExpressionUUID->"0c57e2f0-f3d5-4c47-a11e-ef375268dba1"],
+
+Cell["ToneMapping", "Categorization",
+ CellLabel->
+  "Paclet Name",ExpressionUUID->"0ec5c068-7de4-4451-87b0-59e858956f73"],
+
+Cell["ToneMapping`", "Categorization",
+ CellLabel->"Context",ExpressionUUID->"759d503f-f08a-48a2-af7b-27589c49727b"],
+
+Cell["ToneMapping/guide/ToneMapping", "Categorization",
+ CellLabel->"URI",ExpressionUUID->"9ff71338-5821-4dc7-b6d0-6a8ee516b57b"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["ToneMapping", "GuideTitle",ExpressionUUID->"11431a0e-f363-4ad6-a74f-3d8d8e6ac501"],
+
+Cell["\<\
+HDR tone mapping operators (Reinhard, Extended Reinhard, Drago, Hable, ACES \
+Filmic, AgX, Khronos PBR Neutral, Durand bilateral) with seamless delegation \
+to built-in ColorToneMapping.\
+\>", "GuideAbstract",ExpressionUUID->"af6d1ae2-025a-4743-a180-921c678a2d74"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Functions", "GuideFunctionsSection",ExpressionUUID->"5d62d9cc-862c-4f8d-bb96-2f227a1bfe3e"],
+
+Cell[CellGroupData[{
+
+Cell["Tone Mapping & Transfer Functions", "GuideFunctionsSubsection",ExpressionUUID->"47755f5b-ecf6-43ad-8c65-912a92fef429"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ToneMap"]], "paclet:ToneMapping/ref/ToneMap"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]],ExpressionUUID->
+  "4fce0b84-411f-45a5-8a46-f0b9eca8cf9c"],
+ " \[LongDash] ",
+ "applies an HDR tone mapping operator to an Image or numeric array"
+}], "GuideText",ExpressionUUID->"2d610d84-33bb-4e4c-a69d-f5a4b01f32e6"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["$ToneMappingMethods"]], 
+    "paclet:ToneMapping/ref/$ToneMappingMethods"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]],ExpressionUUID->
+  "12aeb128-4160-4411-b56b-7ac0c60c48fc"],
+ " \[LongDash] ",
+ "lists all supported CG/filmic and built-in ColorToneMapping methods"
+}], "GuideText",ExpressionUUID->"597f05fa-5111-4e13-a6ba-fb7a85b96808"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["LinearToSRGB"]], "paclet:ToneMapping/ref/LinearToSRGB"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]],ExpressionUUID->
+  "0ff5ff3b-7ee9-455c-9c3d-0048f7d826ef"],
+ " \[LongDash] ",
+ "converts linear RGB values in [0, 1] to IEC 61966-2-1 sRGB"
+}], "GuideText",ExpressionUUID->"c792089a-7122-4ed2-87bb-df84f50a8c5c"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SRGBToLinear"]], "paclet:ToneMapping/ref/SRGBToLinear"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]],ExpressionUUID->
+  "d9f251cc-bb17-4fcc-88cd-c1590af2546c"],
+ " \[LongDash] ",
+ "converts IEC 61966-2-1 sRGB values in [0, 1] to linear RGB"
+}], "GuideText",ExpressionUUID->"6a2c603c-07d2-4ff4-aa4a-a519d9933ba2"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["$ToneMappingVersion"]], 
+    "paclet:ToneMapping/ref/$ToneMappingVersion"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]],ExpressionUUID->
+  "40cd5616-b3bd-4514-818a-f1f84790cb4a"],
+ " \[LongDash] ",
+ "version string of the loaded ToneMapping paclet"
+}], "GuideText",ExpressionUUID->"90523148-bf54-4074-8a41-6cf5532d94d1"]
+}, Open  ]]
+}, Open  ]]
+},
+TaggingRules-><|
+ "Metadata" -> <|
+   "context" -> "ToneMapping`", "type" -> "Guide", "paclet" -> "ToneMapping", 
+    "language" -> "en", "title" -> "ToneMapping", "windowtitle" -> 
+    "ToneMapping", "uri" -> "ToneMapping/guide/ToneMapping", "summary" -> 
+    "HDR tone mapping operators with seamless delegation to built-in \
+ColorToneMapping.", "index" -> True|>|>,
+FrontEndVersion->"15.0 for Mac OS X ARM (64-bit) (July 2, 2026)",
+StyleDefinitions->"Reference.nb",
+ExpressionUUID->"a176135d-d62e-4572-93ee-2163f13e9280"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 102, 0, 87, "CategorizationSection",ExpressionUUID->"d5aac77c-73f7-4b04-9f0a-acdf827cba3b"],
+Cell[681, 24, 116, 2, 87, "Categorization",ExpressionUUID->"0c57e2f0-f3d5-4c47-a11e-ef375268dba1"],
+Cell[800, 28, 122, 2, 87, "Categorization",ExpressionUUID->"0ec5c068-7de4-4451-87b0-59e858956f73"],
+Cell[925, 32, 116, 1, 87, "Categorization",ExpressionUUID->"759d503f-f08a-48a2-af7b-27589c49727b"],
+Cell[1044, 35, 129, 1, 87, "Categorization",ExpressionUUID->"9ff71338-5821-4dc7-b6d0-6a8ee516b57b"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1210, 41, 88, 0, 87, "GuideTitle",ExpressionUUID->"11431a0e-f363-4ad6-a74f-3d8d8e6ac501"],
+Cell[1301, 43, 274, 4, 87, "GuideAbstract",ExpressionUUID->"af6d1ae2-025a-4743-a180-921c678a2d74"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1612, 52, 97, 0, 87, "GuideFunctionsSection",ExpressionUUID->"5d62d9cc-862c-4f8d-bb96-2f227a1bfe3e"],
+Cell[CellGroupData[{
+Cell[1734, 56, 124, 0, 87, "GuideFunctionsSubsection",ExpressionUUID->"47755f5b-ecf6-43ad-8c65-912a92fef429"],
+Cell[1861, 58, 385, 10, 87, "GuideText",ExpressionUUID->"2d610d84-33bb-4e4c-a69d-f5a4b01f32e6"],
+Cell[2249, 70, 416, 11, 87, "GuideText",ExpressionUUID->"597f05fa-5111-4e13-a6ba-fb7a85b96808"],
+Cell[2668, 83, 388, 10, 87, "GuideText",ExpressionUUID->"c792089a-7122-4ed2-87bb-df84f50a8c5c"],
+Cell[3059, 95, 388, 10, 87, "GuideText",ExpressionUUID->"6a2c603c-07d2-4ff4-aa4a-a519d9933ba2"],
+Cell[3450, 107, 396, 11, 87, "GuideText",ExpressionUUID->"90523148-bf54-4074-8a41-6cf5532d94d1"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

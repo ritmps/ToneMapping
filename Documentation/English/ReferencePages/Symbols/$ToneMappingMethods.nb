@@ -1,0 +1,160 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Wolfram 15.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       154,          7]
+NotebookDataLength[      5673,        151]
+NotebookOptionsPosition[      3537,        107]
+NotebookOutlinePosition[      4222,        128]
+CellTagsIndexPosition[      4179,        125]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Categorization", "CategorizationSection",ExpressionUUID->"55bd4b56-a2ed-43a9-8792-8a8bb4d38fc2"],
+
+Cell["Symbol", "Categorization",
+ CellLabel->
+  "Entity Type",ExpressionUUID->"1ffa5224-dff0-4362-9a14-6afa00c5764f"],
+
+Cell["ToneMapping", "Categorization",
+ CellLabel->
+  "Paclet Name",ExpressionUUID->"215a05b7-216f-40ec-ba53-57ef4af7fb99"],
+
+Cell["ToneMapping`", "Categorization",
+ CellLabel->"Context",ExpressionUUID->"b6a8dd12-7129-4fc3-8bf2-655c43eeb21d"],
+
+Cell["ToneMapping/ref/$ToneMappingMethods", "Categorization",
+ CellLabel->"URI",ExpressionUUID->"9e64269e-5a44-4522-9e6f-97f17dc1176f"]
+}, Closed]],
+
+Cell[CellGroupData[{
+
+Cell["$ToneMappingMethods", "ObjectName",ExpressionUUID->"bf55a9ae-d54b-478e-9854-713cf91a3695"],
+
+Cell[TextData[{
+ Cell["   ", "ModInfo",ExpressionUUID->"f123f9de-add4-4317-87a4-47694d8e6034"],
+ Cell[BoxData[
+ "$ToneMappingMethods"], "InlineFormula",ExpressionUUID->
+  "f7e72d0f-2b13-47f5-9dc6-ce808ed51622"],
+ " \[LineSeparator]lists all tone mapping methods supported by ToneMap, \
+including built-in ColorToneMapping methods and CG/filmic operators."
+}], "Usage",ExpressionUUID->"8ff23732-1a8f-4249-b85c-a672a7044101"],
+
+Cell[CellGroupData[{
+
+Cell["Examples", "PrimaryExamplesSection",ExpressionUUID->"b7d51fd5-bc8e-477b-ba00-0a45bc377a1a"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Examples", "ExampleSection",ExpressionUUID->"d7f35657-882b-4028-bc42-fe69ffa6176e"],
+
+Cell[BoxData[
+ RowBox[{"Needs", "[", "\"\<ToneMapping`\>\"", "]"}]], "Input",ExpressionUUID->"88d01f24-9e7a-4e21-a84b-a5e1bfb75376"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["See Also", "SeeAlsoSection",ExpressionUUID->"5f2a6d4e-9afc-4f81-a194-b3c3101cd0ab"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["ToneMap"]], "paclet:ToneMapping/ref/ToneMap"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]], "InlineSeeAlsoFunction",ExpressionUUID->
+  "391114b5-c17d-4152-af3c-4d46f795ebf1"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["LinearToSRGB"]], "paclet:ToneMapping/ref/LinearToSRGB"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]], "InlineSeeAlsoFunction",ExpressionUUID->
+  "3262ec60-e26d-4f6f-b758-90aacb246cfe"],
+ StyleBox[" \[FilledVerySmallSquare] ", "InlineSeparator"],
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SRGBToLinear"]], "paclet:ToneMapping/ref/SRGBToLinear"},
+   "RefLink",
+   BaseStyle->{"InlineFormula"}]], "InlineSeeAlsoFunction",ExpressionUUID->
+  "61151c60-1d9b-469e-ad9a-e5d7adb46e4c"]
+}], "SeeAlso",ExpressionUUID->"99d441d5-cfe3-43be-a521-67cac51c1854"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Related Guides", "MoreAboutSection",ExpressionUUID->"648a08e9-7227-49cb-93d6-29dfcdad76c9"],
+
+Cell[TextData[ButtonBox["ToneMapping",
+ BaseStyle->"Link",
+ ButtonData->"paclet:ToneMapping/guide/ToneMapping"]], "MoreAbout",ExpressionU\
+UID->"a48551ec-0c7f-46bf-98ba-d4feb1130a72"]
+}, Open  ]]
+}, Open  ]]
+},
+TaggingRules-><|
+ "Metadata" -> <|
+   "context" -> "ToneMapping`", "type" -> "Symbol", "paclet" -> "ToneMapping",
+     "language" -> "en", "title" -> "$ToneMappingMethods", "windowtitle" -> 
+    "$ToneMappingMethods", "uri" -> "ToneMapping/ref/$ToneMappingMethods", 
+    "summary" -> "Lists all tone mapping methods supported by ToneMap.", 
+    "index" -> True|>|>,
+FrontEndVersion->"15.0 for Mac OS X ARM (64-bit) (July 2, 2026)",
+StyleDefinitions->"Reference.nb",
+ExpressionUUID->"a176135d-d62e-4572-93ee-2163f13e9280"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[576, 22, 102, 0, 87, "CategorizationSection",ExpressionUUID->"55bd4b56-a2ed-43a9-8792-8a8bb4d38fc2"],
+Cell[681, 24, 117, 2, 87, "Categorization",ExpressionUUID->"1ffa5224-dff0-4362-9a14-6afa00c5764f"],
+Cell[801, 28, 122, 2, 87, "Categorization",ExpressionUUID->"215a05b7-216f-40ec-ba53-57ef4af7fb99"],
+Cell[926, 32, 116, 1, 87, "Categorization",ExpressionUUID->"b6a8dd12-7129-4fc3-8bf2-655c43eeb21d"],
+Cell[1045, 35, 135, 1, 87, "Categorization",ExpressionUUID->"9e64269e-5a44-4522-9e6f-97f17dc1176f"]
+}, Closed]],
+Cell[CellGroupData[{
+Cell[1217, 41, 96, 0, 87, "ObjectName",ExpressionUUID->"bf55a9ae-d54b-478e-9854-713cf91a3695"],
+Cell[1316, 43, 423, 7, 87, "Usage",ExpressionUUID->"8ff23732-1a8f-4249-b85c-a672a7044101"],
+Cell[CellGroupData[{
+Cell[1764, 54, 97, 0, 87, "PrimaryExamplesSection",ExpressionUUID->"b7d51fd5-bc8e-477b-ba00-0a45bc377a1a"],
+Cell[CellGroupData[{
+Cell[1886, 58, 95, 0, 87, "ExampleSection",ExpressionUUID->"d7f35657-882b-4028-bc42-fe69ffa6176e"],
+Cell[1984, 60, 132, 1, 87, "Input",ExpressionUUID->"88d01f24-9e7a-4e21-a84b-a5e1bfb75376"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2165, 67, 89, 0, 87, "SeeAlsoSection",ExpressionUUID->"5f2a6d4e-9afc-4f81-a194-b3c3101cd0ab"],
+Cell[2257, 69, 932, 24, 87, "SeeAlso",ExpressionUUID->"99d441d5-cfe3-43be-a521-67cac51c1854"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3226, 98, 97, 0, 87, "MoreAboutSection",ExpressionUUID->"648a08e9-7227-49cb-93d6-29dfcdad76c9"],
+Cell[3326, 100, 183, 3, 87, "MoreAbout",ExpressionUUID->"a48551ec-0c7f-46bf-98ba-d4feb1130a72"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
