@@ -1,8 +1,8 @@
 PacletObject[
   <|
     "Name" -> "ToneMapping",
-    "Version" -> "1.0.2",
-    "BuildNumber" -> "2",
+    "Version" -> "1.0.1",
+    "BuildNumber" -> "1",
     "WolframVersion" -> "13.0+",
     "Creator" -> "Flip Phillips <flip@flipphillips.com>",
     "Description" -> "HDR tone mapping operators (Reinhard, Extended Reinhard, Drago, Hable, ACES Filmic, AgX, Khronos PBR Neutral, Durand bilateral) with seamless delegation to built-in ColorToneMapping.",
